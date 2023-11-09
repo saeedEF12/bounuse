@@ -1,13 +1,26 @@
 git => show all orders
+
 git status => show status stageds
+
 git add [file name] => add file to stageds 
 git add . => add all file to stageds 
+
 git commit -m "add project" => add files in reposotory of stageds 
 git commit -a -m "first step" => add file modfied in stageds & add files in reposotory 
+
 git rm --cached [file name] => remove file in stageds
 git rm --cached -r => remove all file in stageds
+
 git diff => show all changed
+
 git log =>  show all commit
 git log --oneline =>  show all commit in one line
 git log -p =>  show all chaneged in commits
 git log --state => show all commit && show all chaneged in commits
+
+git restore . => restoring file of new modified in reposotory
+git checkout . => restoring file of new modified in reposotory
+git restore -- . => restoring file of new modified in stageds
+git checkout -- . => restoring file of new modified in stageds
+git restore --staged . => restoring file of stageds    
+git reset HEAD . => restoring file of stageds    
